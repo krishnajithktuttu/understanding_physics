@@ -1,0 +1,45 @@
+body {
+    font:   Helvetica ;
+    background-color: #cafafa;
+}
+
+hr {
+    border-style: none;
+    border-color: #D3DEDC;
+    border-top-style: dotted;
+    border-width: 7px;
+    width: 3%;
+}
+
+h1 {
+    color: black;
+    font-size: 50px;
+}
+
+
+.Articles {
+    padding-left: 25%;
+    font-size: large;
+}
+
+.Heading {
+    background-color: #66BFBF;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.space {
+    width: 320px;
+    background-color: #66BFBF;
+}
+
+.feedback {
+    background-color: #66BFBF;
+}
+
+.feedbacklabel {
+    padding-left: 10%;
+}
