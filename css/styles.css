@@ -1,0 +1,175 @@
+/* ------------ abstract tags ------------ */
+div {
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+h4 {
+    margin: 0;
+}
+
+/* ------------ container-1 ------------ */
+.container-1 {
+    background-color: #090030;
+    height: 660px;
+}
+
+.background-image {
+    height: 600px;
+    width: 820px;
+    position: relative;
+    left: 150px;
+    top: 0px;
+}
+
+.title {
+    font-family: Verdana;
+    font-size: 80px;
+    color: #D6E5FA;
+    position: absolute;
+    left: 535px;
+    top: 250px;
+}
+
+.sun-image {
+    width: 855px;
+    position: absolute;
+    left: -340px;
+    top: -99px;
+}
+
+/* ------------ container-2 ------------ */
+.container-2 {
+    background-color: white;
+    height: 500px;
+}
+
+.ask-img {
+    width: 255px;
+    position: absolute;
+    left: 380px;
+    top: 775px;
+}
+.ask-question-label {
+    font-size: 40px;
+    font-family: Cooper Black;
+    color:#a9cfcf;
+    position: absolute;
+    left: 625px;
+    top: 700px;
+}
+
+.question-space {
+    position: absolute;
+    left: 625px;
+    top: 800px;
+}
+
+.submit-button {
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    background: #a9cfcf;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    position: absolute;
+    left: 730px;
+    top: 1040px;
+}
+
+.submit-button:hover {
+    background: #BAE8E8;
+    text-decoration: none;
+  }
+
+/* ------------ container-3 ------------ */
+.container-3 {
+    background-color: #e3f6f59a;
+    height: 650px;
+}
+
+.article-img {
+    width: 210px;
+    position: absolute;
+    left: 31px;
+    top: 1222px;
+}
+
+.articles-label {
+    font-family: Cooper Black;
+    color: #66bfbf;
+    font-size: 35px;
+    position: absolute;
+    left: 235px;
+    top: 1175px;
+}
+.article-list {
+    list-style-type: none;
+    text-align: left;
+    font-size: 20px;
+    font-family: cursive;
+    position: absolute;
+    left: 200px;
+    top: 1250px;
+}
+
+.article-name:hover {
+    color: #99d7f3;
+}
+
+.books-img {
+    width: 170px;
+    position: absolute;
+    left: 575px;
+    top: 1620px;
+}
+
+.books-label {
+    font-family: Cooper Black;
+    color: #b5dfdf;
+    font-size: 35px;
+    position: absolute;
+    left: 790px;
+    top: 1570px;
+}
+
+.books-list {
+    list-style-type: none;
+    text-align: left;
+    font-size: 20px;
+    font-family: cursive;
+    position: absolute;
+    left: 750px;
+    top: 1635px;
+}
+
+.books-name:hover {
+    color: #99d7f3;
+}
+
+/* ------------ container-4 ------------ */
+.container-4 {
+    background-color: #BAE8E8;
+    height: 100px;
+}
+
+.gmail {
+    padding-top: 10px;
+    font-family: cursive;
+}
+
+.copyright {
+    padding-top: 10px;
+    font-family: cursive;
+}
