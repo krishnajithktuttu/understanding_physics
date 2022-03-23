@@ -1,27 +1,24 @@
 // getting elements 
 
 var button = document.getElementById("submit-button");
+
 var questionSpace = document.getElementById("question-space");
 
 // function that run when submit button clicks
 
 button.onclick = function (e) {
 
-    // consoling question
-
-    console.log(questionSpace.value);
+    console.log(questionSpace.value);       // consoling question
 
     // sending question to the server
 
     axios.post("http://localhost:3000/form_submission", questionSpace.value).then((responce) => {
 
-        // consoling the responce from the server
+        window.alert("Question submitted");     // alerting that question has been sended to the server
 
-        console.log(responce.data);
-
-        // clearing questionSpace 
-
-        questionSpace.value = "";
+        console.log(responce.data);     // consoling the responce from the server
+        
+        questionSpace.value = "";       // clearing questionSpace 
 
     }).catch((error)=>{
         
@@ -30,8 +27,6 @@ button.onclick = function (e) {
         console.log("ERROR");
         console.log(error);
 
-        // clearing questionSpace
-
-        questionSpace.value = "";
+        questionSpace.value = "";       // clearing questionSpace
     });
 }
