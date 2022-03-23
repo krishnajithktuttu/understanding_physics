@@ -7,15 +7,15 @@ var questionSpace = document.getElementById("question-space");
 
 button.onclick = function (e) {
 
-    // printing question
+    // consoling question
 
     console.log(questionSpace.value);
 
-    // sending questian to the server
+    // sending question to the server
 
     axios.post("http://localhost:3000/form_submission", questionSpace.value).then((responce) => {
 
-        // printing the responce from the server
+        // consoling the responce from the server
 
         console.log(responce.data);
 
@@ -25,12 +25,12 @@ button.onclick = function (e) {
 
     }).catch((error)=>{
         
-        // printin error that gets from server 
+        // consoling error that gets from server 
 
         console.log("ERROR");
         console.log(error);
 
-        // clearing error gets from server 
+        // clearing questionSpace
 
         questionSpace.value = "";
     });
